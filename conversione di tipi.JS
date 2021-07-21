@@ -36,4 +36,15 @@ alert( +true ); //1 i valori non numerici vengono convertiti
 alert( +"" );   //0
 
 //somma binaria
+let cerchi = "4";
+let quadrati = "5";
+
+alert( cerchi + quadrati ); //45
+
+//conversione in numeri
+let cerchi = "4";
+let quadrati = "5";
+
+alert( +cerchi + +quadrati); //9
+
 
