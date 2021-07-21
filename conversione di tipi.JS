@@ -24,3 +24,16 @@ alert( Boolean(0) ); //false
 
 alert(Boolean("hello") ); //true
 alert( Boolean("") );     //false
+
+//operatore unario
+let X = 1;
+alert( +X ); //1
+
+let y = -2;
+alert( +y ); //-2
+
+alert( +true ); //1 i valori non numerici vengono convertiti
+alert( +"" );   //0
+
+//somma binaria
+
